@@ -1,6 +1,7 @@
-<img src="../../03-Image/vimview.png" alt="vimview" style="zoom:80%;" />
+<img src="../../05-Images/vimview.png" alt="vimview" style="zoom:80%;" />
 
 # 配置文件
+
 ```bash
 
 " ============================================================
