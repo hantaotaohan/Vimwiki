@@ -10,3 +10,5 @@ test
 [他](ttttt.md)
 
 [今天我要出去](ia-writer://open?path=/Locations/iCloud/Note/3-Resources/富爸爸穷爸爸.md)
+
+[123](3-Resources/富爸爸穷爸爸)

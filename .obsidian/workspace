@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "1d3dac77ec6eeb93",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed1b5299e95a276e",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "3-Resources/富爸爸穷爸爸.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ca080b695f967a0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e9ba7148ddec581",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52b4428ef8d5acd1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4817fcb94ee49afc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "593f61bbeb03822f",
+    "type": "split",
+    "children": [
+      {
+        "id": "eca2d52de86a1e82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6368df78727c4bfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "3-Resources/富爸爸穷爸爸.md",
+    "teat.md",
+    "ttttt.md"
+  ]
+}
