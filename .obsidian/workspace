@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "ed1b5299e95a276e",
+        "id": "1fc4f98959214818",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/富爸爸穷爸爸.md",
-            "mode": "preview"
+            "file": "3-Resources/202007200857.md",
+            "mode": "source"
           }
         }
       }
@@ -41,12 +41,21 @@
               "type": "search",
               "state": {}
             }
+          },
+          {
+            "id": "322e4032839986ee",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "593f61bbeb03822f",
@@ -63,16 +72,27 @@
               "type": "backlink",
               "state": {}
             }
+          },
+          {
+            "id": "88e045a45e9ad3ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "3-Resources/202007200857.md",
+    "3-Resources/工程师真题.md",
     "3-Resources/富爸爸穷爸爸.md",
-    "teat.md",
-    "ttttt.md"
+    "3-Resources/PARA方法.md",
+    "3-Resources/Hexo-配置及部署.md"
   ]
 }
