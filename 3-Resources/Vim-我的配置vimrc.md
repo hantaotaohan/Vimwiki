@@ -1,4 +1,4 @@
-<img src="../../05-Images/vimview.png" alt="vimview" style="zoom:80%;" />
+![](../5-Images/vimview.png)
 
 # 配置文件
 

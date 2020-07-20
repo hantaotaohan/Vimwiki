@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5a6a3a40afd6594e",
+        "id": "49f2f36a55b7478d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "sdf.md",
+            "file": "3-Resources/Vim-我的配置vimrc.md",
             "mode": "source"
           }
         }
@@ -41,6 +41,14 @@
               "type": "search",
               "state": {}
             }
+          },
+          {
+            "id": "9b35dae0a261bb59",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
           }
         ]
       }
@@ -63,6 +71,14 @@
               "type": "backlink",
               "state": {}
             }
+          },
+          {
+            "id": "02b2f1893fae2788",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
           }
         ]
       }
@@ -72,7 +88,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Untitled.md",
-    "3-Resources/202007200857.md"
+    "3-Resources/Vim-我的配置vimrc.md",
+    "3-Resources/Vscode-同步插件设置.md",
+    "5-Images/vimview.png",
+    "3-Resources/富爸爸穷爸爸.md",
+    "3-Resources/202007201256.md"
   ]
 }

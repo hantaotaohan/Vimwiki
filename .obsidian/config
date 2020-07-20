@@ -8,6 +8,35 @@
     "Backlinks": true,
     "Command palette": true,
     "Markdown format importer": true,
-    "Word count": true
-  }
+    "Word count": true,
+    "Tag pane": true,
+    "Page preview": true,
+    "Starred": true,
+    "Custom CSS": true,
+    "Zettelkasten prefixer": true,
+    "Random note": true,
+    "Slides": true,
+    "Audio recorder": true,
+    "Open with default app": true
+  },
+  "spellcheck": false,
+  "strictLineBreaks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "vimMode": true,
+  "attachmentFolderPath": "5-Images",
+  "hotkeys": {
+    "zk-prefixer": [
+      {
+        "modifiers": [
+          "Mod",
+          "Shift"
+        ],
+        "key": "N"
+      }
+    ]
+  },
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
