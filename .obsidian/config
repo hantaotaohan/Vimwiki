@@ -38,5 +38,7 @@
     ]
   },
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "3-Resources"
 }

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "3-Resources/Vim-我的配置vimrc.md",
+            "file": "3-Resources/工程师真题.md",
             "mode": "source"
           }
         }
@@ -54,7 +54,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2a945a5422e2fd31",
@@ -88,10 +89,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "3-Resources/工程师真题.md",
+    "3-Resources/Cvim-Chrome插件vim常用快捷键.md",
     "3-Resources/Vim-我的配置vimrc.md",
-    "3-Resources/Vscode-同步插件设置.md",
-    "5-Images/vimview.png",
-    "3-Resources/富爸爸穷爸爸.md",
-    "3-Resources/202007201256.md"
+    "3-Resources/Python-从入门到实践完整笔记.md",
+    "3-Resources/Vscode-同步插件设置.md"
   ]
 }

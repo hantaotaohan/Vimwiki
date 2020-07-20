@@ -4,7 +4,7 @@
 ## 部署前修改的准备
 
 - 修改django的settings.py
-
+[]()
 ```python
 ALLOWED_HOSTS = ['IP','域名']
 ```
