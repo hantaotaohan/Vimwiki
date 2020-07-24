@@ -1,4 +1,3 @@
-  
 defaults:
   - scope:
       path: "/Vimwiki/master/src/img"
