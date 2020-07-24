@@ -1,6 +1,6 @@
 defaults:
   - scope:
-      path: "src/img"
+      path: "master/src/img"
     values:
       image: true
 theme: jekyll-theme-midnight
