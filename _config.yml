@@ -1,6 +1,6 @@
 defaults:
   - scope:
-      path: "/Vimwiki/master/src/img"
+      path: "src/img"
     values:
       image: true
 theme: jekyll-theme-midnight
