@@ -1,3 +1,3 @@
 # PROJECT
 
-# INBOX
+#](#.md) INBOX
