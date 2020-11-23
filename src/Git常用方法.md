@@ -1,0 +1,11 @@
+    * [ ]sdfasd
+    * /ch
+ = Toggleable list of todo items =
+   * [X] Toggle list item on/off.
+     * [X] Simple toggling between [ ] and [X].
+     * [X] All list's subitems should be toggled on/off appropriately.
+     * [X] Toggle child subitems only if current line is list item
+     * [X] Parent list item should be toggled depending on its child items.
+   * [X] Make numbered list items toggleable too
+   * [X] Add highlighting to list item boxes
+   * [o] Add [ ] to the next list item created with o, O and <CR>.
