@@ -50,8 +50,5 @@
   %content%
 <script async src="https://cse.google.com/cse.js?cx=ff7faac39846a589d"></script>
 <div class="gcse-search"></div>
-<form method="Get" action="blogs/Search.html">
-<input type="text" name="q" id="s" placeholder="站内Google" />
-</form>
 </body>
 </html>
