@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
    <link rel="Stylesheet" type="text/css" href="style.css">
+   <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "4864822zxv");
+</script>
   <title>%title%</title>
 
   %pygments%
@@ -52,11 +59,4 @@
 <div class="gcse-search"></div>
 </body>
 
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "4864822zxv");
-</script>
 </html>
