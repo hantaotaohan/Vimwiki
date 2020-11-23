@@ -41,3 +41,14 @@ print ('sadasd')
 ```
 
 %% asdfasfs ad
+
+----------
+  *bold text*
+  _italic text_
+  _*bold italic text*_
+  *_bold italic text _*
+  ~~strikeout text~~
+  `code (no syntax) text`
+  super^script^
+  sub,,script,,
+
