@@ -48,5 +48,7 @@
 <body id="%title%">
   <h2 id="title">%title%</h2>
   %content%
+<script async src="https://cse.google.com/cse.js?cx=ff7faac39846a589d"></script>
+<div class="gcse-search"></div>
 </body>
 </html>
