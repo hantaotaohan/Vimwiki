@@ -1,7 +1,7 @@
     * [ ]sdfasd
     * /ch
  = Toggleable list of todo items =
-   * [X] Toggle list item on/off.
+   * [Xlllllllllll::] Toggle list item on/off.
      * [X] Simple toggling between [ ] and [X].
      * [X] All list's subitems should be toggled on/off appropriately.
      * [X] Toggle child subitems only if current line is list item
