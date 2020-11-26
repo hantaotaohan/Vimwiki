@@ -83,6 +83,7 @@
         <a class="nav-link" href="#">Contact</a>
       </nav>
     </div>
+    <link href="style1.css" rel="stylesheet">
   </header>
 
   <main role="main" class="inner cover">
