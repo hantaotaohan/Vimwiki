@@ -8,7 +8,7 @@ $(function(){
       this.target = "_blank";
     });
     // 替换表格样式
-    $("table").addClass("table table-dark table-bordered table-striped table-hover shadow-lg p-3 mb-5  rounded");
+    $("table").addClass("table table-dark table-bordered table-striped table-hover");
 
     // 生成左侧toc导航
     // if ($(".toc").html().trim()){
