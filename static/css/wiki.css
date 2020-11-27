@@ -36,6 +36,15 @@ blockquote {
   border-radius: 1px;
 }
 
+.highlight .o {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    background: #288888;
+    font-weight: bold;
+}
 
 
 

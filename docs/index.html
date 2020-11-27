@@ -6,7 +6,7 @@
         <script type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./static/js/wiki.js"></script>
         <link href="./static/css/wiki.css" rel="stylesheet">
-        <link rel="stylesheet" href=./static/js/styles/atom-one-dark.css">
+        <link rel="stylesheet" href="./static/js/styles/atom-one-dark.css">
         <script src="./static/js/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
@@ -459,8 +459,10 @@ Bob--&gt;Alice: I am good thanks!
         </div>
 
 <script>
-document.querySelectorAll('pre.lang').forEach((block) => {
+document.addEventListener('DOMContentLoaded', (event) => {
+document.querySelectorAll('pre').forEach((block) => {
   hljs.highlightBlock(block);
+});
 });
 </script>
     </body>
