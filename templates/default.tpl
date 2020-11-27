@@ -10,8 +10,8 @@
         <script src="%root_path%static/js/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
-        <title>%title%</title>
-          %pygments%
+        /* <title>%title%</title> */
+        /*   %pygments% */
 
     </head>
 
@@ -34,7 +34,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-document.querySelectorAll('pre.highlight').forEach((block) => {
+document.querySelectorAll('pre>span>*').forEach((block) => {
   hljs.highlightBlock(block);
 });
 });
