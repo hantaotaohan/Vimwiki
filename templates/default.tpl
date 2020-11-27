@@ -11,44 +11,63 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         <title>%title%</title>
-          %pygments%
-<style>
+            %pygments%
+ 
+        <style>
 
-.highlight .o {
-    color: #abb2bf;
-    font-weight: bold;
-}
+        .highlight .o {
+            color: #abb2bf;
+            font-weight: bold;
+        }
 
-.highlight {
-    background: #1E2127;
-    font-weight: bold;
-}
+        .highlight {
+            background: #1E2127;
+            font-weight: bold;
+            box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+        }
 
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
+        p {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
 
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  line-height:100%;
-  margin-top: 1.5em;
-  margin-bottom: 0.5em;
-}
+        h1, h2, h3, h4, h5, h6 {
+          font-weight: bold;
+          line-height:100%;
+          margin-top: 1.5em;
+          margin-bottom: 0.5em;
+        }
 
-h1 {font-size: 2em; color: #e6c07b;}
-h2 {font-size: 1.8em; color: #98c379;}
-h3 {font-size: 1.6em; color: #c678dd;}
-h4 {font-size: 1.4em; color: #8096BF;}
-h5 {font-size: 1.2em; color: #989898;}
-h6 {font-size: 1em; color: #9c9c9c;}
+        h1 {font-size: 2em; color: #e6c07b;}
+        h2 {font-size: 1.8em; color: #98c379;}
+        h3 {font-size: 1.6em; color: #c678dd;}
+        h4 {font-size: 1.4em; color: #8096BF;}
+        h5 {font-size: 1.2em; color: #989898;}
+        h6 {font-size: 1em; color: #9c9c9c;}
 
-</style>
+
+        .site-header {
+          background-color: #1E2127;
+          -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+          font-weight: bold;
+        }
+        .site-header a {
+          color: #999;
+          transition: ease-in-out color .15s;
+        }
+        .site-header a:hover {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        </style>
+
     </head>
 
     <body class="text">
-        <nav class="site-header sticky-top py-1">
+        <nav class="site-header sticky-top shadow-lg rounded">
             <div class="container d-flex flex-column flex-md-row justify-content-between">
                 <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
@@ -64,12 +83,12 @@ h6 {font-size: 1em; color: #9c9c9c;}
             %content%
         </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', (event) => {
-document.querySelectorAll('pre').forEach((block) => {
-  hljs.highlightBlock(block);
-});
-});
-</script>
+        <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre').forEach((block) => {
+          hljs.highlightBlock(block);
+        });
+        });
+        </script>
     </body>
 </html>
