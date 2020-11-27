@@ -6,6 +6,8 @@
         <script type="text/javascript" src="%root_path%static/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="%root_path%static/js/wiki.js"></script>
         <link href="%root_path%static/css/wiki.css" rel="stylesheet">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
 
         <title>%title%</title>
           %pygments%

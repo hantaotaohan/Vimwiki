@@ -3,10 +3,16 @@
 html,
 body {
   background-color: #282c34;
+  font-family: system-ui,-apple-system,BlinkMacSystemFont,PingFang SC,Microsoft YaHei UI,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 16px;
+  line-height: 1.8rem;
+  width: 100%;
 }
 
 body {
-  color: #fff;
+  color: #a9a9b3;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -18,7 +24,34 @@ a:hover {
   color: #61afef;
 }
 
+blockquote {
+  border-left: 5px solid #dcdcdc;
+  border-left-color: #448aff;
+  background-color: rgba(68,138,255,0.1);
+  color: #abb2bf;
+  padding-left: 1em;
+  padding: 0 .75rem;
+  font-size: 16px;
+  line-height: 1.5rem;
+  border-radius: 1px;
+}
 
+
+
+
+
+
+
+/* pre { */
+/*   border-left: 5px solid #dcdcdc; */
+/*   border-left-color: rgba(32,37,43); */
+/*   background-color: rgba(39,44,52); */
+/*   padding-left: 1em; */
+/*   padding: 0 .75rem; */
+/*   font-size: 16px; */
+/*   line-height: 1.5rem; */
+/*   border-radius: 1px; */
+/* } */
 .done0 {
     /* list-style: none; */
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAxQAAAMUBHc26qAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAA7SURBVCiR7dMxEgAgCANBI3yVRzF5KxNbW6wsuH7LQ2YKQK1mkswBVERYF5Os3UV3gwd/jF2SkXy66gAZkxS6BniubAAAAABJRU5ErkJggg==);
