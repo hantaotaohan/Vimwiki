@@ -1,4 +1,4 @@
-(function(){
+$(function(){
     // 替换出站连接
     $("a[href^='http://']").each(function(){
       this.target = "_blank";
