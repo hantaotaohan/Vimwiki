@@ -23,6 +23,11 @@
     background: #1E2127;
     font-weight: bold;
 }
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 </style>
     </head>
 
