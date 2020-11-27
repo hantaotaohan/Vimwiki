@@ -47,6 +47,10 @@ blockquote {
 }
 
 
+code {
+    font-size: 87.5%;
+    color: #e06c75;
+    word-wrap: break-word;
 
 
 

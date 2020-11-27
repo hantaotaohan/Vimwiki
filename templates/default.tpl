@@ -15,12 +15,12 @@
 <style>
 
 .highlight .o {
-    color: red;
+    color: #abb2bf;
     font-weight: bold;
 }
 
 .highlight {
-    background: #282c34;
+    background: #1E2127;
     font-weight: bold;
 }
 </style>
@@ -45,7 +45,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-document.querySelectorAll('pre>span>*').forEach((block) => {
+document.querySelectorAll('pre').forEach((block) => {
   hljs.highlightBlock(block);
 });
 });

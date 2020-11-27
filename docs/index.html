@@ -10,8 +10,8 @@
         <script src="./static/js/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
-        /* <title>Index</title> */
-        /*   <style type="text/css">
+        <title>Index</title>
+          <style type="text/css">
         .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
 .highlight .cm {
@@ -221,8 +221,19 @@
 .highlight {
   background-color: #f8f8f8;
 }
-      </style> */
+      </style>
+<style>
 
+.highlight .o {
+    color: #abb2bf;
+    font-weight: bold;
+}
+
+.highlight {
+    background: #1E2127;
+    font-weight: bold;
+}
+</style>
     </head>
 
     <body class="text">
@@ -466,7 +477,7 @@ Bob--&gt;Alice: I am good thanks!
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-document.querySelectorAll('pre>span>*').forEach((block) => {
+document.querySelectorAll('pre').forEach((block) => {
   hljs.highlightBlock(block);
 });
 });
