@@ -6,8 +6,9 @@
         <script type="text/javascript" src="%root_path%static/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="%root_path%static/js/wiki.js"></script>
         <link href="%root_path%static/css/wiki.css" rel="stylesheet">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/default.min.css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
+        <link rel="stylesheet" href=%root_path%static/js/styles/atom-one-dark.css">
+        <script src="%root_path%static/js/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
 
         <title>%title%</title>
           %pygments%
@@ -31,5 +32,10 @@
             %content%
         </div>
 
+<script>
+document.querySelectorAll('pre.lang').forEach((block) => {
+  hljs.highlightBlock(block);
+});
+</script>
     </body>
 </html>
