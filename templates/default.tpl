@@ -28,6 +28,22 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height:100%;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {font-size: 2em; color: #e6c07b;}
+h2 {font-size: 1.8em; color: #98c379;}
+h3 {font-size: 1.6em; color: #c678dd;}
+h4 {font-size: 1.4em; color: #8096BF;}
+h5 {font-size: 1.2em; color: #989898;}
+h6 {font-size: 1em; color: #9c9c9c;}
+
 </style>
     </head>
 
