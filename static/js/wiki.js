@@ -11,7 +11,7 @@ $(function(){
     $("table").addClass("table table-dark table-bordered table-striped table-hover");
 
     // 生成左侧toc导航
-    if ($(".toc").html().trim()){
+    if ($(".toc").html()){
         var html = $(".content-body").html();
         var toc_html = '<div class="toc">'+$(".toc").html() + "</div>"
         var content = html.replace(toc_html, "");
