@@ -34,7 +34,7 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-document.querySelectorAll('pre.highlight.*').forEach((block) => {
+document.querySelectorAll('pre.highlight').forEach((block) => {
   hljs.highlightBlock(block);
 });
 });

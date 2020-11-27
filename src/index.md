@@ -47,6 +47,10 @@
 
 ### 代码块
 
+{{{
+def somefunc
+
+  }}}
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
