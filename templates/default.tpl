@@ -62,11 +62,23 @@
           text-decoration: none;
         }
 
+
+.bd-toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+}
+.bd-toc {
+    -ms-flex-order: 2;
+    order: 2;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: .875rem;
+}
         </style>
 
-    </head>
-
-    <body class="text">
         <nav class="site-header sticky-top shadow-lg rounded">
             <div class="container d-flex flex-column flex-md-row justify-content-between">
                 <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
@@ -79,9 +91,33 @@
             </div>
         </nav>
 
-        <div class="container content-body">
-            %content%
-        </div>
+    </head>
+
+    <body class="text">
+
+        <div class="container-fluid">
+              <div class="row flex-xl-nowrap">
+
+                    <nav class="bd-toc sticky-top" >
+                        <ul class="section-nav">
+                        <li class="toc-entry toc-h2"><a href="#border">Border</a>
+                        <ul>
+                        <li class="toc-entry toc-h3"><a href="#additive">Additive</a></li>
+                        <li class="toc-entry toc-h3"><a href="#subtractive">Subtractive</a></li>
+                        </ul>
+                        </li>
+                        <li class="toc-entry toc-h2"><a href="#border-color">Border color</a></li>
+                        <li class="toc-entry toc-h2"><a href="#border-radius">Border-radius</a></li>
+                        <li class="toc-entry toc-h2"><a href="#sizes">Sizes</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="container content-body">
+                        %content%
+                    </div>
+
+                </dev>
+        </dev>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
@@ -91,9 +127,6 @@
         });
         </script>
 
-
-<nav class="d-none d-xl-block col-xl-2 bd-toc" aria-label="Secondary navigation">
-</nav>
 
 
     </body>

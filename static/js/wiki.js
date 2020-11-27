@@ -10,6 +10,8 @@ $(function(){
     // 替换表格样式
     $("table").addClass("table table-dark table-bordered table-striped table-hover");
 
+
+    $(".toc").addClass("site-header sticky-top shadow-lg rounded")
     // 生成左侧toc导航
     // if ($(".toc").html().trim()){
     //     var html = $(".content-body").html();
