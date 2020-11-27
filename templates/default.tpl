@@ -10,7 +10,6 @@
         <title>%title%</title>
           %pygments%
 
-        <!--Style for Vimwiki Tasklist-->
     </head>
 
     <body class="text-center">
@@ -25,13 +24,19 @@
                       </nav>
                 </div>
               </header>
+
+
+            <main role="main" class="inner cover">
+                <h2 id="title">%title%</h2>
+                    %content%
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                </div>
+            </footer>
+
         </div>
-
-    <h2 id="title">%title%</h2>
-
-        <div class="container content-body">
-            %content%
-        </div>
-
     </body>
 </html>
