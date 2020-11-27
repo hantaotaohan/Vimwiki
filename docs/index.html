@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="Stylesheet" type="text/css" href="./static/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./static/bootstrap/css/bootstrap.min.css">
         <script type="text/javascript" src="./static/js/jquery-3.5.1.min.js"></script>
         <script type="text/javascript" src="./static/bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="./static/js/wiki.js"></script>
@@ -222,23 +222,21 @@
 
     </head>
 
-    <body class="text-center">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-              <header class="masthead mb-auto">
-                <div class="inner">
-                  <h3 class="masthead-brand">Cover</h3>
-                      <nav class="nav nav-masthead justify-content-center">
-                        <a class="nav-link active" href="#">Home</a>
-                        <a class="nav-link" href="#">Features</a>
-                        <a class="nav-link" href="#">Contact</a>
-                      </nav>
-                </div>
-              </header>
+    <body class="text">
+        <nav class="site-header sticky-top py-1">
+            <div class="container d-flex flex-column flex-md-row justify-content-between">
+                <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+                <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+            </div>
+        </nav>
 
-
-            <main role="main" class="inner cover">
-                <h2 id="title">Index</h2>
-                    <h1>
+        <div class="container content-body">
+            <h1>
 <a id="git" class="anchor" href="#git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git</h1>
 <h2>
 <a id="git用方法" class="anchor" href="#git%E7%94%A8%E6%96%B9%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="git.html">Git用方法</a>
@@ -452,14 +450,7 @@ Bob--&gt;Alice: I am good thanks!
 <p>感谢阅读这份帮助文档。请点击右上角，绑定印象笔记账号，开启全新的记录与分享体验吧。</p>
 <p>[^demo]: 这是一个示例脚注。请查阅 <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown 文档</a> 关于脚注的说明。 <strong>限制：</strong> 印象笔记的笔记内容使用 <a href="https://dev.yinxiang.com/doc/articles/enml.php">ENML</a> 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致<code>脚注</code>和<code>TOC</code>无法正常点击。</p>
 
-            </main>
-
-            <footer class="mastfoot mt-auto">
-                <div class="inner">
-                    <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-                </div>
-            </footer>
-
         </div>
+
     </body>
 </html>
