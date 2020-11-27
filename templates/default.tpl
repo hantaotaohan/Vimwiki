@@ -10,9 +10,20 @@
         <script src="%root_path%static/js/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
-        /* <title>%title%</title> */
-        /*   %pygments% */
+        <title>%title%</title>
+          %pygments%
+<style>
 
+.highlight .o {
+    color: red;
+    font-weight: bold;
+}
+
+.highlight {
+    background: #282c34;
+    font-weight: bold;
+}
+</style>
     </head>
 
     <body class="text">
