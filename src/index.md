@@ -47,10 +47,17 @@
 
 ### 代码块
 
-{{{
-def somefunc
-
-  }}}
+ ``` bash
+ 
+ cd $HOME
+ ls
+ 
+ 
+ ``` 
+  
+  
+  
+  
 ``` python
 @requires_authorization
 def somefunc(param1='', param2=0):
