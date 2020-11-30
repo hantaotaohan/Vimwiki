@@ -16,8 +16,14 @@ $(function(){
         var html = $(".container-fluid").html();
         var toc_html = '<div class="toc">'+$(".toc").html() + "</div>"
         var content = html.replace(toc_html, "");
+        var html = '<div class="row flex-xl-nowrap"\n'+toc_html+'\n</div>\n';
+        html += '<div class="col-md-9">\n'+content+'\n</div>\n';
+        html = html.replace(/blockquote/g, "pre");
         $(".container-fluid").html(html);
         $(".toc").addClass("bd-toc sticky-top");
+        /* $(".toc").attr("role", "complementary"); */
+        $(".toc").attr("data-spy", "affix");
+        /* $(".toc").attr("data-offset-top", "200") */
         var uls = $(".toc").find("ul");
         for (var i = 0; i < uls.length; i++){
             ul = uls[i];
@@ -25,7 +31,7 @@ $(function(){
             console.log($(ul).parent() == $(".toc"));
             console.log($(ul).parent().hasClass("toc"));
             if ($(ul).parent().hasClass("toc"))
-                $(ul).addClass("row flex-xl-nowrap");
+                $(ul).addClass("nav bs-sidenav");
             else
                 $(ul).addClass("nav");
 
