@@ -80,11 +80,7 @@
         </nav>
 
         <div class="container">
-        <div class="row">
-        <div class="col-md-8">
             %content%
-        </div>
-        </div>
         </div>
 
         <script>

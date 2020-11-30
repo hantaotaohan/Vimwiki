@@ -25,17 +25,6 @@ $(function(){
         $(".toc").attr("data-spy", "affix");
         /* $(".toc").attr("data-offset-top", "200") */
         var uls = $(".toc").find("ul");
-        for (var i = 0; i < uls.length; i++){
-            ul = uls[i];
-            console.log($(ul).parent(), $(".toc"));
-            console.log($(ul).parent() == $(".toc"));
-            console.log($(ul).parent().hasClass("toc"));
-            if ($(ul).parent().hasClass("toc"))
-                $(ul).addClass("nav bs-sidenav");
-            else
-                $(ul).addClass("nav");
-
-        }
     }
 });
 
