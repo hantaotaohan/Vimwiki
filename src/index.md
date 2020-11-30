@@ -1,5 +1,3 @@
-<div class="toc">
-
 # Contents
 
 - [欢迎使用马克飞象](#欢迎使用马克飞象)
@@ -19,6 +17,9 @@
         - [快捷键](#欢迎使用马克飞象#编辑器相关#快捷键)
     - [关于收费](#欢迎使用马克飞象#关于收费)
     - [反馈与建议](#欢迎使用马克飞象#反馈与建议)
+
+<div class="toc">
+
 
 
 </div>
@@ -45,7 +46,7 @@
     asdfasfasdfasfasdfasdf
     
     asdfasf
-<details>
+vdetails>
   <summary>Click to see it</summary>
   展开的内容及代码块
 </details>
