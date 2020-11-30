@@ -1,5 +1,5 @@
 
-<nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+<nav class="bd-toc">
 # Contents
 
 - [Git](#git)
