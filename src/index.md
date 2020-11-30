@@ -1,4 +1,4 @@
-<div class="toc">
+<div class="toc col-md-4 blog-sidebar">
 # Contents
 
 - [Git](#git)

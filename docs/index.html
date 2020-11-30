@@ -289,9 +289,10 @@
             </div>
         </nav>
 
-        <div class="container content-body">
-            <div>
-<nav class="bd-toc">
+        <main role="main" class="container">
+        <div class="row">
+        <div class="col-md-8 blog-main">
+            <div class="toc">
 # Contents
 <ul>
 <li>
@@ -337,7 +338,6 @@
 </ul>
 </li>
 </ul>
-</nav>
 </div>
 # Git
 <h2>
@@ -571,6 +571,8 @@ Bob--&gt;Alice: I am good thanks!
 <p>[^demo]: 这是一个示例脚注。请查阅 <a href="https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide#footnotes">MultiMarkdown 文档</a> 关于脚注的说明。 <strong>限制：</strong> 印象笔记的笔记内容使用 <a href="https://dev.yinxiang.com/doc/articles/enml.php">ENML</a> 格式，基于 HTML，但是不支持某些标签和属性，例如id，这就导致<code>脚注</code>和<code>TOC</code>无法正常点击。</p>
 
         </div>
+        </div>
+        </main>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {

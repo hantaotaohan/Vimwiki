@@ -79,9 +79,13 @@
             </div>
         </nav>
 
-        <div class="container content-body">
+        <main role="main" class="container">
+        <div class="row">
+        <div class="col-md-8 blog-main">
             %content%
         </div>
+        </div>
+        </main>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
