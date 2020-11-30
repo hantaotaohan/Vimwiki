@@ -1,4 +1,4 @@
-<div class="toc">
+<nav class="toc">
 # Contents
 
 - [Git](#git)
@@ -23,7 +23,7 @@
     - [关于收费](#关于收费)
     - [反馈与建议](#反馈与建议)
     - [](#-3)
-</div>
+</nav>
 
 # Git
 
