@@ -1,8 +1,5 @@
 # Contents
 
-<div class="container-fluid">
-<div class="row flex-xl-nowrap">
-
 <nav class="bd-toc sticky-top" >
 - [Git](#Git)
     - [[Git用方法](Git常用方法.md)](#Git#[Git用方法](Git常用方法.md))
@@ -24,6 +21,7 @@
     - [关于收费](#欢迎使用马克飞象#关于收费)
     - [反馈与建议](#欢迎使用马克飞象#反馈与建议)
 
+</nav>
 # Git
 
 ## [Git用方法](Git常用方法.md)
