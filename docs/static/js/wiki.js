@@ -21,9 +21,9 @@ $(function(){
         html = html.replace(/blockquote/g, "pre");
         $(".content-body").html(html);
         $(".toc").addClass("col-md-6 bd-toc sticky-top")
-        /* $(".toc").attr("role", "complementary"); */
+        $(".toc").attr("role", "complementary"); 
         $(".toc").attr("data-spy", "affix");
-        /* $(".toc").attr("data-offset-top", "200") */
+        $(".toc").attr("data-offset-top", "200") 
         var uls = $(".toc").find("ul");
         for (var i = 0; i < uls.length; i++){
             ul = uls[i];
