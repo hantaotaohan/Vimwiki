@@ -79,8 +79,8 @@
     <body class="text">
         <nav class="site-header sticky-top shadow-lg rounded">
             <div class="container d-flex flex-column flex-md-row justify-content-between">
-                <a class="py-2 d-none d-md-inline-block" href="%root_path%docs/index">Home</a>
-                <a class="py-2 d-none d-md-inline-block" href="%root_path%docs/books">Books</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/index">Home</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/books">Books</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
                 <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
