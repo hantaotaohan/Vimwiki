@@ -1,4 +1,4 @@
-<div class="toc">
+<div class="toc bd-toc">
 # Contents
 
 - [Git](#git)

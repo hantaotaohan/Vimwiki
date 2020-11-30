@@ -13,7 +13,7 @@ $(function(){
 
     // 生成左侧toc导航
     if ($(".toc").html().trim()){
-        var html = $(".content-body").html();
+        var html = $(".container-fluid").html();
         var toc_html = '<div class="toc">'+$(".toc").html() + "</div>"
         var content = html.replace(toc_html, "");
         var html = '<div class="col-md-3">\n'+toc_html+'\n</div>\n';
