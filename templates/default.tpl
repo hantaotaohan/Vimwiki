@@ -79,7 +79,7 @@
             </div>
         </nav>
 
-        <main class="container content-body bd-content">
+        <main class="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
             %content%
         </main>
 

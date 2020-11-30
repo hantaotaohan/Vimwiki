@@ -1,5 +1,5 @@
 
-<nav class="d-none d-xl-block col-xl-2 bd-toc">
+<nav class="d-none d-xl-block col-xl-2 bd-toc" aria-label="Secondary navigation">
 # Contents
 
 - [Git](#git)
