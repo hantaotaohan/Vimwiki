@@ -2,7 +2,6 @@
 
 # Contents
 
-    - [[Git用方法](Git常用方法.md)](#[Git用方法](Git常用方法.md))
 - [欢迎使用马克飞象](#欢迎使用马克飞象)
     - [Markdown简介](#欢迎使用马克飞象#Markdown简介)
         - [代码块](#欢迎使用马克飞象#Markdown简介#代码块)
@@ -23,6 +22,7 @@
 
 
 </div>
+
 
 ## [Git用方法](Git常用方法.md)
 
@@ -45,7 +45,10 @@
     asdfasfasdfasfasdfasdf
     
     asdfasf
-
+<details>
+  <summary>Click to see it</summary>
+  展开的内容及代码块
+</details>
 # 欢迎使用马克飞象
 
 @(示例笔记本)[马克飞象|帮助|Markdown]
