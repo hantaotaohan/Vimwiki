@@ -20,7 +20,7 @@ $(function(){
         html += '<div class="col-md-9">\n'+content+'\n</div>\n';
         html = html.replace(/blockquote/g, "pre");
         $(".container-fluid").html(html);
-        $(".toc").addClass("bd-toc sticky-top");
+        $(".toc").addClass("nav class="bd-toc sticky-top");
         /* $(".toc").attr("role", "complementary"); */
         $(".toc").attr("data-spy", "affix");
         /* $(".toc").attr("data-offset-top", "200") */
