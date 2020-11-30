@@ -2,7 +2,6 @@
 
 <div class="toc">
 
-
 # Contents
 
     - [Git用方法](#git用方法)
