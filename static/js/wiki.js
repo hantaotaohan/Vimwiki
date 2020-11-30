@@ -25,7 +25,7 @@ $(function(){
             console.log($(ul).parent() == $(".toc"));
             console.log($(ul).parent().hasClass("toc"));
             if ($(ul).parent().hasClass("toc"))
-                $(ul).addClass("nav bs-sidenav");
+                $(ul).addClass("bd-toc");
             else
                 $(ul).addClass("nav");
 
