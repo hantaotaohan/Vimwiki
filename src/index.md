@@ -1,4 +1,4 @@
-<nav class="toc">
+<nav class="bd-toc stickey-top">
 # Contents
 
 - [Git](#git)
