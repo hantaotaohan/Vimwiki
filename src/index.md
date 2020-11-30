@@ -1,6 +1,6 @@
 # Contents
 
-<nav class:toc">
+<nav class="toc">
 - [Git](#git)
     - [Git用方法](#git用方法)
 - [欢迎使用马克飞象](#欢迎使用马克飞象)
