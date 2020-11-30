@@ -62,6 +62,15 @@
           text-decoration: none;
         }
 
+
+hr {
+    width:90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(30, 33, 39, 0), rgba(30, 33, 39, 0.75), rgba(30, 33, 39, 0));
+}
         </style>
 
     </head>

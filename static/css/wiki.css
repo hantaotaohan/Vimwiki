@@ -62,10 +62,10 @@ pre {
 
 
 .page-nav { 
-  float:right; 
-  width:auto; 
-  margin-right:-300px; 
-  padding:50px 0 0 0; 
+    float:right; 
+    width:auto; 
+    margin-right:-300px; 
+    padding:50px 0 0 0; 
 }
 
 /* pre { */
