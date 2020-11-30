@@ -21,9 +21,6 @@ $(function(){
         html = html.replace(/blockquote/g, "pre");
         $(".container").html(html);
         $(".toc").addClass("bd-toc");
-        /* $(".toc").attr("role", "complementary"); */
-        $(".toc").attr("data-spy", "affix");
-        /* $(".toc").attr("data-offset-top", "200") */
         var uls = $(".toc").find("ul");
     }
 });
