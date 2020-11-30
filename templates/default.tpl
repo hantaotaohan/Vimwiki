@@ -11,6 +11,7 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         <title>%title%</title>
+            %pygments%
  
         <style>
 
