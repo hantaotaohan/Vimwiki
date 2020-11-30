@@ -1,4 +1,4 @@
-<div class="toc">
+<aside class="toc">
 # Contents
 
 - [Git](#git)
