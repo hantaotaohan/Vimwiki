@@ -11,7 +11,7 @@ $(function(){
     $("table").addClass("table table-dark table-bordered table-striped table-hover");
 
 
-    $(".toc").addClass("bd-toc sticky-top")
+    $(".toc").addClass("col-md-6 bd-toc sticky-top")
     // 生成左侧toc导航
     // if ($(".toc").html().trim()){
     //     var html = $(".content-body").html();
