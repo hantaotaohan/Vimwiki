@@ -1,6 +1,5 @@
 # Contents
 
-<body>
 <nav>
 - [Git](#git)
     - [Git用方法](#git用方法)
@@ -26,7 +25,6 @@
     - [](#-3)
 </nav>
 
-</body>
 
 # Git
 
