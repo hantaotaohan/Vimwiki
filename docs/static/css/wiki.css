@@ -64,8 +64,8 @@ pre {
 .page-nav { 
   float:right; 
   width:auto; 
-  margin-right:-100px; 
-  padding:50px 36px 12px 0; 
+  margin-right:-300px; 
+  padding:50px 0 0 0; 
 }
 
 /* pre { */
