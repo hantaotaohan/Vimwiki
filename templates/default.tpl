@@ -46,7 +46,6 @@
         h5 {font-size: 1.2em; color: #989898;}
         h6 {font-size: 1em; color: #9c9c9c;}
 
-
         .site-header {
           background-color: #1E2127;
           -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -61,7 +60,6 @@
           color: #fff;
           text-decoration: none;
         }
-
 
         hr {
             width:90%;
@@ -81,11 +79,10 @@
             <div class="container d-flex flex-column flex-md-row justify-content-between">
                 <a class="py-2 d-none d-md-inline-block" href="%root_path%/index.html">Home</a>
                 <a class="py-2 d-none d-md-inline-block" href="%root_path%/books.html">Books</a>
-                <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-                <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-                <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-                <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
-                <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/tags.html">Tags</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/todo.html">Todo</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/contact.html">Contact</a>
+                <a class="py-2 d-none d-md-inline-block" href="%root_path%/search.html">Search</a>
             </div>
         </nav>
 
