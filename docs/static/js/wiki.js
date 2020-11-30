@@ -25,7 +25,7 @@ $(function(){
             console.log($(ul).parent() == $(".toc"));
             console.log($(ul).parent().hasClass("toc"));
             if ($(ul).parent().hasClass("toc"))
-                $(ul).addClass("bd-toc");
+                $(ul).addClass("row flex-xl-nowrap");
             else
                 $(ul).addClass("nav");
 
