@@ -1,4 +1,4 @@
-<div class="toc col-md-6">
+<div class="col-md-6">
 # Contents
 
 - [Git](#git)
