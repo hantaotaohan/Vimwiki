@@ -1,6 +1,6 @@
 # Contents
 
-<div class="toc">
+<nav class="bd-toc sticky-top" >
 - [Git](#git)
     - [Git用方法](#git用方法)
 - [欢迎使用马克飞象](#欢迎使用马克飞象)
@@ -23,7 +23,7 @@
     - [关于收费](#关于收费)
     - [反馈与建议](#反馈与建议)
     - [](#-3)
-</div>
+</nav>
 
 
 # Git
