@@ -50,7 +50,7 @@
     asdfasfasdfasfasdfasdf
     
     asdfasf
-vdetails>
+<details>
   <summary>Click to see it</summary>
   展开的内容及代码块
 </details>
