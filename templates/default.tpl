@@ -62,23 +62,11 @@
           text-decoration: none;
         }
 
-
-.bd-toc {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
-}
-.bd-toc {
-    -ms-flex-order: 2;
-    order: 2;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    font-size: .875rem;
-}
         </style>
 
+    </head>
+
+    <body class="text">
         <nav class="site-header sticky-top shadow-lg rounded">
             <div class="container d-flex flex-column flex-md-row justify-content-between">
                 <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
@@ -91,23 +79,9 @@
             </div>
         </nav>
 
-    </head>
-
-    <body class="text">
-
-        <div class="container-fluid">
-              <div class="row flex-xl-nowrap">
-
-                    <nav class="bd-toc sticky-top" >
-                        %toc%
-                    </nav>
-
-                    <div class="container content-body">
-                        %content%
-                    </div>
-
-                </dev>
-        </dev>
+        <div class="container content-body">
+            %content%
+        </div>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
@@ -116,6 +90,7 @@
         });
         });
         </script>
+
 
 
 
