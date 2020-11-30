@@ -1,5 +1,5 @@
 
-<nav class="bd-toc stickey-top">
+<nav class="d-none d-xl-block col-xl-2 bd-toc">
 # Contents
 
 - [Git](#git)

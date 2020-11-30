@@ -79,9 +79,9 @@
             </div>
         </nav>
 
-        <div class="container content-body">
+        <main class="container content-body bd-content">
             %content%
-        </div>
+        </main>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
