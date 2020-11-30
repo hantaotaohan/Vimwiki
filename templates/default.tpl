@@ -11,7 +11,6 @@
         <script>hljs.initHighlightingOnLoad();</script>
 
         <title>%title%</title>
-            %pygments%
  
         <style>
 
@@ -99,17 +98,7 @@
               <div class="row flex-xl-nowrap">
 
                     <nav class="bd-toc sticky-top" >
-                        <ul class="section-nav">
-                        <li class="toc-entry toc-h2"><a href="#border">Border</a>
-                        <ul>
-                        <li class="toc-entry toc-h3"><a href="#additive">Additive</a></li>
-                        <li class="toc-entry toc-h3"><a href="#subtractive">Subtractive</a></li>
-                        </ul>
-                        </li>
-                        <li class="toc-entry toc-h2"><a href="#border-color">Border color</a></li>
-                        <li class="toc-entry toc-h2"><a href="#border-radius">Border-radius</a></li>
-                        <li class="toc-entry toc-h2"><a href="#sizes">Sizes</a></li>
-                        </ul>
+                        %toc%
                     </nav>
 
                     <div class="container content-body">
