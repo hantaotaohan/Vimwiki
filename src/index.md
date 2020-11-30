@@ -1,4 +1,4 @@
-<aside class="toc">
+<div class="toc p-4 mb-3 bg-light rounded">
 # Contents
 
 - [Git](#git)
@@ -23,7 +23,7 @@
     - [关于收费](#关于收费)
     - [反馈与建议](#反馈与建议)
     - [](#-3)
-</aside>
+</div>
 # Git
 
 ## [Git用方法](Git常用方法.md)
