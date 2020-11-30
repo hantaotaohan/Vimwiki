@@ -79,13 +79,15 @@
             </div>
         </nav>
 
-        <main role="main" class="container">
+        <div class="container-fluid">
         <div class="row">
-        <div class="col-md-8 blog-main">
+        <main role="main" class="col-md-5 ml-sm-auto col-lg-5 px-md-5">
+        <div class="col-md-3 blog-main">
             %content%
         </div>
-        </div>
         </main>
+        </div>
+        </div>
 
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
