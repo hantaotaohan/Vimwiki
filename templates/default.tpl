@@ -81,11 +81,9 @@
 
         <div class="container-fluid">
         <div class="row">
-        <main role="main" class="col-md-5 ml-sm-auto col-lg-5 px-md-5">
-        <div class="col-md-3 blog-main">
+        <div class="col-md-6">
             %content%
         </div>
-        </main>
         </div>
         </div>
 

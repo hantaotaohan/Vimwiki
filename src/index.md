@@ -1,4 +1,4 @@
-<div class="col-md-3 col-lg-3 d-md-blocksidebar collapse">
+<div class="toc">
 # Contents
 
 - [Git](#git)
