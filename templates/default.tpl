@@ -79,11 +79,10 @@
             </div>
         </nav>
 
-<div class="row">
-        <div class="container content-body col-md-8 blog-main">
+        <div class="container content-body">
             %content%
         </div>
-</div>
+
         <script>
         document.addEventListener('DOMContentLoaded', (event) => {
         document.querySelectorAll('pre').forEach((block) => {
@@ -91,10 +90,6 @@
         });
         });
         </script>
-
-
-
-
     </body>
 </html>
 
