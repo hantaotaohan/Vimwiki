@@ -12,7 +12,7 @@ $(function(){
 
 
     $(".toc").addClass("bd-toc sticky-top well page-nav");
-    $(".bdlink").addClass("bd-toc sticky-top well bdlink");
+    $(".bdlink").addClass("bd-toc sticky-top bdlink");
     // 生成左侧toc导航
     // if ($(".toc").html().trim()){
     //     var html = $(".content-body").html();
